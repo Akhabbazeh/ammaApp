@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/card_view_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/spacing_x_medium"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="@dimen/spacing_x_medium"
+        android:orientation="horizontal">
+
+
+
+    <FrameLayout
+        android:id="@+id/decoration_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/decoration_icon"
+        android:backgroundTint="@color/primary_color">
+
+        <TextView
+            android:id="@+id/txt_sura_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/hekaya"
+            android:text="1"
+            android:layout_gravity="center"
+            android:textColor="@color/primary_color"
+            />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/makhtota_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:tint="@color/primary_color"
+        android:layout_marginStart="@dimen/spacing_x_medium"
+        />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/btn_plus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/plus_with_circle_icon"
+            app:tint="@color/primary_color"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@drawable/line"
+        android:layout_marginHorizontal="@dimen/spacing_m_large"
+        android:layout_marginTop="@dimen/spacing_x_medium"/>
+
+</LinearLayout>
+

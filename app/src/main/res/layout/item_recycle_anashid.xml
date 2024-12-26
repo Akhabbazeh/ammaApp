@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/card_view_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/spacing_middle"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+
+    <FrameLayout
+        android:id="@+id/decoration_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/decoration_icon"
+        android:backgroundTint="@color/primary_color">
+
+        <TextView
+            android:id="@+id/txt_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/hekaya"
+            android:text="1"
+            android:layout_gravity="center"
+            android:textColor="@color/primary_color"
+            />
+
+    </FrameLayout>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="@dimen/spacing_middle"
+            android:fontFamily="@font/hekaya"
+            android:textColor="@color/primary_color"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_details_line_1"
+                style="@style/smallRegularText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/hekaya"
+                android:gravity="center"
+                android:textColor="@color/primary_color"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_details_line_2"
+                style="@style/smallRegularText"
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/hekaya"
+                android:gravity="center"
+                android:textColor="@color/primary_color"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@drawable/line"
+        android:layout_marginHorizontal="@dimen/spacing_m_large"
+        android:layout_marginTop="@dimen/spacing_x_medium"/>
+
+</LinearLayout>
+

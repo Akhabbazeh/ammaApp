@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:background="@drawable/background_m_rounded"
+        android:backgroundTint="#FCFFFF"
+        android:layout_marginBottom="@dimen/spacing_large">
+
+        <LinearLayout
+            android:id="@+id/aya_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:layout_margin="@dimen/spacing_middle"
+            android:padding="7dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/background_m_rounded"
+            android:backgroundTint="@color/primary_color"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:rotation="180"
+                    android:src="@drawable/ayah_arrow"
+                    app:tint="@color/white"/>
+
+
+                <TextView
+                    android:id="@+id/txt_aya"
+                    android:fontFamily="@font/hafs_smart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:paddingHorizontal="5dp"
+                    android:text="‏‏‏ ‏‏‏‏‏ ‏‏‏‏ ‏‏‏‏‏‏‏ ‏"
+                    android:textColor="@color/white"
+                    />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ayah_arrow"
+                    app:tint="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/spacing_middle"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/btn_play_aya_sound"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/sound_icon"
+                    app:tint="@color/primary_color"
+                    android:layout_marginVertical="@dimen/spacing_medium"
+                    />
+
+                <ImageView
+                    android:id="@+id/btn_go_to_page"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/quran_icon"
+                    app:tint="@color/white"
+                    android:padding="5dp"
+                    android:background="@drawable/circle_shape"
+                    android:backgroundTint="@color/primary_color"
+                    android:layout_marginVertical="@dimen/spacing_medium"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/spacing_x_medium"
+                android:layout_marginVertical="@dimen/spacing_large"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:rotation="180"
+                        android:src="@drawable/ayah_arrow"
+                        app:tint="@color/primary_color"/>
+
+
+                    <TextView
+                        android:id="@+id/txt_word"
+                        android:fontFamily="@font/hafs_smart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:textColor="@color/primary_color"
+                        />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ayah_arrow"
+                        app:tint="@color/primary_color"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_word_mean"
+                    android:fontFamily="@font/jazeera_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:paddingHorizontal="@dimen/spacing_large"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="حُرّكت تحْريكًا عَنيفا مُتكرِّرًا عند النفخة الأولى."
+                    android:textColor="@color/black"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="30dp"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:orientation="vertical"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

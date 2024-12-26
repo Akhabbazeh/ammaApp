@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_color">#194c4f</color>
+    <color name="color_primary_dark">#194c4f</color>
+    <color name="accent_color">#25605e</color>
+    <color name="progress_color">#a9eeb7</color>
+    <color name="progress_error_color">#f4bebe</color>
+    <color name="progress_error_text_color">#f6372d</color>
+    <color name="progress_background_color">#0A000000</color>
+    <color name="error_color">#bb2124</color>
+
+    <color name="background_color">#e3f0f6</color>
+    <color name="grey">#b0b2b1</color>
+    <color name="background">#f8f8f8</color>
+    <color name="grey_400">#DAB0B2B1</color>
+    <color name="light_gray">#F0F0F0</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_verse_selector">#5E194C4F</color>
+</resources>

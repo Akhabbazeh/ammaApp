@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/primary_color</item>
+    <item name="colorPrimaryDark">@color/primary_color</item>
+    <item name="colorAccent">@color/primary_color</item>
+    </style>
+
+
+
+    <style name="custom_text_appearance_tab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="smallRegularText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="rcTextProgress">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/hekaya</item>
+        <item name="android:textColor">@color/primary_color</item>
+    </style>
+
+
+
+    <style name="CustomTabTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/jazeera_bold</item>
+        <item name="android:textColor">@color/tab_text_selector</item>
+    </style>
+
+
+
+
+</resources>

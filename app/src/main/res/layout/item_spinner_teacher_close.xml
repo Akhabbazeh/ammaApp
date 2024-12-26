@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_color"
+    android:layoutDirection="rtl"
+    >
+
+    <TextView
+        android:id="@+id/txtSpinnerCategoriesClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hekaya"
+        android:text="اختر المعلم"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textAlignment="viewStart"
+        />
+
+
+</LinearLayout>
