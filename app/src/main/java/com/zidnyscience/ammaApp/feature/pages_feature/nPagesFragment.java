@@ -1,6 +1,5 @@
-package com.zidnyscience.ammaApp.feature.npages_feature;
+package com.zidnyscience.ammaApp.feature.pages_feature;
 
-import android.content.pm.ActivityInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.ViewPager;
 
 import com.duolingo.open.rtlviewpager.RtlViewPager;
 import com.facebook.shimmer.ShimmerFrameLayout;

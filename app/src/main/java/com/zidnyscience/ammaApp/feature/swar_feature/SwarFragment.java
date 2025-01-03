@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.zidnyscience.ammaApp.R;
-import com.zidnyscience.ammaApp.feature.npages_feature.nPagesFragment;
+import com.zidnyscience.ammaApp.feature.pages_feature.nPagesFragment;
 import com.zidnyscience.model.BeSwarIndexItem;
 
 import java.util.ArrayList;

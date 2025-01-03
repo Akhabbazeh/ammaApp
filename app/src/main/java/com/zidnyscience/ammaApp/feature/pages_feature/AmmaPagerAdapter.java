@@ -1,4 +1,4 @@
-package com.zidnyscience.ammaApp.feature.npages_feature;
+package com.zidnyscience.ammaApp.feature.pages_feature;
 
 import android.content.Context;
 import android.view.LayoutInflater;

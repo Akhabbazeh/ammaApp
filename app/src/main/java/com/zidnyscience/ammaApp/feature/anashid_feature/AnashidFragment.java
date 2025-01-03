@@ -21,8 +21,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.zidnyscience.ammaApp.R;
-import com.zidnyscience.ammaApp.feature.npages_feature.nPagesFragment;
-import com.zidnyscience.ammaApp.feature.swar_feature.AdapterRecycleSwarIndex;
 import com.zidnyscience.model.BeAnashidItem;
 import com.zidnyscience.utils.Tools;
 

@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 import com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar;
 import com.duolingo.open.rtlviewpager.RtlViewPager;
 import com.zidnyscience.ammaApp.R;
-import com.zidnyscience.ammaApp.feature.npages_feature.AmmaPagerAdapter;
 import com.zidnyscience.model.BeTest;
 import com.zidnyscience.utils.Tools;
 

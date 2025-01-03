@@ -13,7 +13,6 @@
             tools:ignore="MissingClass"
             android:focusable="true"
             android:clickable="true"
-            android:background="@drawable/onclick_background_selector"
             android:focusableInTouchMode="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

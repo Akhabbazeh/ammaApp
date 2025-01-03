@@ -1,7 +1,6 @@
 package com.zidnyscience.ammaApp.feature.suwar_and_pages_feature;
 
 import android.annotation.SuppressLint;
-import android.content.pm.ActivityInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,15 +12,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.zidnyscience.ammaApp.R;
-import com.zidnyscience.ammaApp.feature.empty_feature.EmptyFragment;
-import com.zidnyscience.ammaApp.feature.npages_feature.nPagesFragment;
+import com.zidnyscience.ammaApp.feature.pages_feature.nPagesFragment;
 import com.zidnyscience.ammaApp.feature.pages_index.PagesIndexFragment;
 import com.zidnyscience.ammaApp.feature.swar_feature.SwarFragment;
 import com.zidnyscience.model.BeSearchAyaItem;

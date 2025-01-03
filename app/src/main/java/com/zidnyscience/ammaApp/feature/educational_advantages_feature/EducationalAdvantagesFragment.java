@@ -10,20 +10,14 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.zidnyscience.ammaApp.R;
-import com.zidnyscience.ammaApp.feature.npages_feature.nPagesFragment;
-import com.zidnyscience.ammaApp.feature.word_meaning_feature.AdapterRecycleWordMeaning;
 import com.zidnyscience.ammaApp.feature.word_meaning_feature.AdapterSpinnerSwarTopic;
 import com.zidnyscience.model.BeEducationalAdvantagesItem;
-import com.zidnyscience.model.BeSurahWordsMeaningItem;
 import com.zidnyscience.model.EducationalAdvantages;
-import com.zidnyscience.model.WordMeaning;
 import com.zidnyscience.utils.Tools;
-import com.zidnyscience.utils.WordMeaningLoader;
 
 import java.util.ArrayList;
 import java.util.List;

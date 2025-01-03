@@ -1,20 +1,17 @@
-package com.zidnyscience.ammaApp.feature.npages_feature;
+package com.zidnyscience.ammaApp.feature.pages_feature;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
-import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -24,8 +21,6 @@ import com.zidnyscience.model.QuranWord;
 import com.zidnyscience.utils.JustifiedTextView;
 import com.zidnyscience.utils.Tools;
 
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class LineAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

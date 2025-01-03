@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.fragment.app.Fragment;
@@ -18,10 +17,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.zidnyscience.ammaApp.R;
-import com.zidnyscience.ammaApp.feature.npages_feature.nPagesFragment;
-import com.zidnyscience.ammaApp.feature.pages_index.PagesIndexFragment;
-import com.zidnyscience.ammaApp.feature.swar_feature.AdapterRecycleSwarIndex;
-import com.zidnyscience.ammaApp.feature.swar_feature.SwarFragment;
 import com.zidnyscience.model.BeAzkarIndexIteam;
 import com.zidnyscience.utils.Tools;
 

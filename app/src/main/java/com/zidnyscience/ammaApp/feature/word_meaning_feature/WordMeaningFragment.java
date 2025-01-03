@@ -15,12 +15,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.zidnyscience.ammaApp.R;
-import com.zidnyscience.ammaApp.feature.anashid_feature.AdapterRecycleAnasid;
-import com.zidnyscience.ammaApp.feature.moshaf_almoallem_feature.AdapterRecycleSwarTeacher;
-import com.zidnyscience.ammaApp.feature.moshaf_almoallem_feature.AdapterSpinnerTeacherTopic;
-import com.zidnyscience.ammaApp.feature.npages_feature.nPagesFragment;
+import com.zidnyscience.ammaApp.feature.pages_feature.nPagesFragment;
 import com.zidnyscience.model.BeSurahWordsMeaningItem;
-import com.zidnyscience.model.BeWordMeaningItem;
 import com.zidnyscience.model.WordMeaning;
 import com.zidnyscience.utils.Tools;
 import com.zidnyscience.utils.WordMeaningLoader;
